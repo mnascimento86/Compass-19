@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "SuccessFactorsDAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SuccessFactorsDAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SuccessFactorsDAL.dll": {}
+        }
       }
     }
   },
@@ -171,11 +181,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "SuccessFactorsDAL/1.0.0": {
+      "type": "project",
+      "path": "../SuccessFactorsDAL/SuccessFactorsDAL.csproj",
+      "msbuildProject": "../SuccessFactorsDAL/SuccessFactorsDAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "SuccessFactorsDAL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -207,7 +223,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Workspace\\COMPASS-19\\master\\Compass-19\\SuccessFactorsDAL\\SuccessFactorsDAL.csproj": {
+              "projectPath": "D:\\Workspace\\COMPASS-19\\master\\Compass-19\\SuccessFactorsDAL\\SuccessFactorsDAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

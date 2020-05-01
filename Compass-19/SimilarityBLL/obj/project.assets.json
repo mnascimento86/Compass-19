@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "SimilarityDAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SimilarityDAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimilarityDAL.dll": {}
+        }
       }
     }
   },
@@ -171,11 +181,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "SimilarityDAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/SimilarityDAL.csproj",
+      "msbuildProject": "../DAL/SimilarityDAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "SimilarityDAL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -207,7 +223,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Workspace\\COMPASS-19\\master\\Compass-19\\DAL\\SimilarityDAL.csproj": {
+              "projectPath": "D:\\Workspace\\COMPASS-19\\master\\Compass-19\\DAL\\SimilarityDAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
