@@ -23,3 +23,7 @@ Talking about folders:
 
 Our intention is gonna help to salve lives. Please if you can, help us to help some body!
 
+This project is using microservices three tier layer and docker. the main idea is to have a hub API
+ to connect another app client-sides (mobile, pwa, desktops, web and external softwares)
+
+
