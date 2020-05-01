@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  successfactorsservice:
+    image: ${DOCKER_REGISTRY-}successfactorsservice
+    build:
+      context: .
+      dockerfile: SuccessFactosService\Dockerfile
+
+  similarityservice:
+    image: ${DOCKER_REGISTRY-}similarityservice
+    build:
+      context: .
+      dockerfile: SimilarityService\Dockerfile
+
