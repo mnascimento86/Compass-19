@@ -185,9 +185,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\COMPASS-19\\master\\Compass-19\\DAL\\DAL.csproj",
-      "projectName": "DAL",
-      "projectPath": "D:\\Workspace\\COMPASS-19\\master\\Compass-19\\DAL\\DAL.csproj",
+      "projectUniqueName": "D:\\Workspace\\COMPASS-19\\master\\Compass-19\\DAL\\SimilarityDAL.csproj",
+      "projectName": "SimilarityDAL",
+      "projectPath": "D:\\Workspace\\COMPASS-19\\master\\Compass-19\\DAL\\SimilarityDAL.csproj",
       "packagesPath": "D:\\Users\\marcelo.THIRDFOX\\.nuget\\packages\\",
       "outputPath": "D:\\Workspace\\COMPASS-19\\master\\Compass-19\\DAL\\obj\\",
       "projectStyle": "PackageReference",

@@ -8,6 +8,29 @@
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
+      },
+      "SuccessFactorsBLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SuccessFactorsDAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SuccessFactorsBLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SuccessFactorsBLL.dll": {}
+        }
+      },
+      "SuccessFactorsDAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SuccessFactorsDAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SuccessFactorsDAL.dll": {}
+        }
       }
     }
   },
@@ -75,11 +98,22 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
+    },
+    "SuccessFactorsBLL/1.0.0": {
+      "type": "project",
+      "path": "../SuccessFactorsBLL/SuccessFactorsBLL.csproj",
+      "msbuildProject": "../SuccessFactorsBLL/SuccessFactorsBLL.csproj"
+    },
+    "SuccessFactorsDAL/1.0.0": {
+      "type": "project",
+      "path": "../SuccessFactorsDAL/SuccessFactorsDAL.csproj",
+      "msbuildProject": "../SuccessFactorsDAL/SuccessFactorsDAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.8"
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.8",
+      "SuccessFactorsBLL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -111,7 +145,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Workspace\\COMPASS-19\\master\\Compass-19\\SuccessFactorsBLL\\SuccessFactorsBLL.csproj": {
+              "projectPath": "D:\\Workspace\\COMPASS-19\\master\\Compass-19\\SuccessFactorsBLL\\SuccessFactorsBLL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
