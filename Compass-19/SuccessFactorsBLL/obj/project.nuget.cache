@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JX8kuhECO+lKnWsih5PByh5Bpof/15WmG7M7AIyeYsnTrDOIZmYZB9ff37yoOZVtQNLcAuRCJaZSza/dUIbOyg==",
+  "success": true,
+  "projectFilePath": "D:\\Workspace\\COMPASS-19\\master\\Compass-19\\SuccessFactorsBLL\\SuccessFactorsBLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

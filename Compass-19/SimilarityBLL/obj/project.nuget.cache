@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jpQTxxvnTA/DDcLpFXrwKaRX1w7MJemMz/gVtmbAx+OxZfhcE/Vi4ITfEjR1UmU6yGP/vEo2sRcsWMP3iTSEtQ==",
+  "success": true,
+  "projectFilePath": "D:\\Workspace\\COMPASS-19\\master\\Compass-19\\SimilarityBLL\\SimilarityBLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
