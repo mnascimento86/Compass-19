@@ -15,12 +15,11 @@ Status
 All activities about that guy ( Gym, sports, normal eating food, how is living)
 And some others fields requireds by Healthly doctors (Stackholders)
 
-About folders:
+Talking about folders:
  
  - Docs folder we will have architectures diagrams 
  - Compass-19 is for codes project
  
 
 Our intention is gonna help to salve lives. Please if you can, help us to help some body!
-
 
