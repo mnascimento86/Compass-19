@@ -10,3 +10,13 @@ D:\Workspace\COMPASS-19\master\Compass-19\bin\Debug\SimilarityService.pdb
 D:\Workspace\COMPASS-19\master\Compass-19\obj\Debug\docker-compose.dcprojAssemblyReference.cache
 D:\Workspace\COMPASS-19\master\Compass-19\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 D:\Workspace\COMPASS-19\master\Compass-19\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\Workspace\COMPASS-19\master\Compass-19\bin\Debug\SuccessFactorsDAL.dll
+D:\Workspace\COMPASS-19\master\Compass-19\bin\Debug\SuccessFactorsBLL.dll
+D:\Workspace\COMPASS-19\master\Compass-19\bin\Debug\MongoDB.Driver.dll
+D:\Workspace\COMPASS-19\master\Compass-19\bin\Debug\MongoDB.Driver.Core.dll
+D:\Workspace\COMPASS-19\master\Compass-19\bin\Debug\MongoDB.Bson.dll
+D:\Workspace\COMPASS-19\master\Compass-19\bin\Debug\MongoDB.Libmongocrypt.dll
+D:\Workspace\COMPASS-19\master\Compass-19\bin\Debug\DnsClient.dll
+D:\Workspace\COMPASS-19\master\Compass-19\bin\Debug\SharpCompress.dll
+D:\Workspace\COMPASS-19\master\Compass-19\bin\Debug\SuccessFactorsDAL.pdb
+D:\Workspace\COMPASS-19\master\Compass-19\bin\Debug\SuccessFactorsBLL.pdb
