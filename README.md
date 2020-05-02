@@ -1,5 +1,5 @@
 # Compass-19
-This is an open-source .NET CORE initiative for a reference book about COVID-19 symptoms into some success cases, to doctors pass scenarios, and to make a list like it that was a success. ( OUR INTENTION IS TO BE FASTER DEVELOPMENT )
+This is an open-source(.NET CORE, Java, AI, Mongodb) initiative for a reference book about COVID-19 symptoms into some success cases, to doctors pass scenarios, and to make a list like it that was a success. ( OUR INTENTION IS TO BE FASTER DEVELOPMENT )
 
 The main idea is to insert healthy success case-patient and its factors after the system will treat this data using machine learnings to match with more near inputted scenarios system will gonna display the top 10 cases mostly near the case input: Important information displayed is :
 
