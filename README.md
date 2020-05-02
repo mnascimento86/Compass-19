@@ -16,7 +16,7 @@ Age of patients
 Weight of patients 
 Height of patients 
 Status of patients 
-All activities about that patient ( Gym, sports, normal eating food, how is living)
+All activities about that patient rotines ( Gym, sports, normal eating food, how is his or her routines)
 and some other fields required by Healthy doctors (Stakeholders)
 
 Talking about folders:
