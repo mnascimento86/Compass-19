@@ -30,8 +30,6 @@ namespace SuccessFactorsDAL.Models
         {
             try
             {
-                //Expression<Func<RecoveredPatientsModel, bool>> filter = x => x.NationalDocumentId.Equals(171);
-
                 return this.recoveredPatientCollection.Find(_ => true).ToList();
             }
             catch (Exception ex) { throw ex; }
