@@ -19,7 +19,7 @@ RUN dotnet build "SimilarityService.csproj" -c Release -o /app/build
 FROM build AS publish
 RUN dotnet publish "SimilarityService.csproj" -c Release -o /app/publish
 
-FROM base AS final
+FROM base AS SimilarityService
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "SimilarityService.dll"]
