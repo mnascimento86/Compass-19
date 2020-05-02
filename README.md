@@ -1,5 +1,5 @@
 # Compass-19
-This is an open-source(.NET CORE, SpringBoot, AI, Mongodb) initiative for a reference book about COVID-19 symptoms into some success cases.
+This is an open-source(.NET CORE, SpringBoot, AI, Mongodb) initiative for a reference book about pandemic's symptoms into some success cases.
 Into this system the doctors will digite his patient scenarios,
 and them the system will make a reference list from activities used by recovered patients, 
 who should be similars the sick patients. 
