@@ -1,6 +1,8 @@
 # Compass-19
 This is an open-source(.NET CORE, SpringBoot, AI, Mongodb) initiative for a reference book about COVID-19 symptoms into some success cases.
-Into this system the doctors will digite his patient scenarios after that system will make a reference list of recovered patients who did like currently sick patients. 
+Into this system the doctors will digite his patient scenarios,
+and them the system will make a reference list from activities used by recovered patients, 
+who should be similars the sick patients. 
 
 We expect pass an information about everything that was made for recover that sick patients and them give a those parameters for doctors.
 
@@ -16,7 +18,7 @@ Age of patients
 Weight of patients 
 Height of patients 
 Status of patients 
-All activities about that patient rotines ( Gym, sports, normal eating food, how is his or her routines)
+All activities about that patient rotines ( Gym, sports, normal eating food, medicine that he or she have been used frequently and how is his or her routines)
 and some other fields required by Healthy doctors (Stakeholders)
 
 Talking about folders:
