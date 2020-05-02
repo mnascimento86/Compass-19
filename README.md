@@ -1,27 +1,25 @@
 # Compass-19
-This is a open source .NET CORE initiative for reference book about covid-19 symptoms into some success cases, to doctors pass scenarios and take list like it that were succeed. ( OUR INTENTION IS TO BE FASTER DEVELOPMENT and after we gonna be improve distruition)
+This is an open-source(.NET CORE, SpringBoot, AI, Mongodb) initiative for a reference book about COVID-19 symptoms into some success cases.
+Into this system the doctors will digite his patient scenarios after that system will make a reference list of recovered patients who did like currently sick patients. 
 
-The main idea is to insert helthly success case patient and its factors, after the system will treat this data using machine learnings to macth with more near inputed scenarios system will gonna display the top 10 cases mostly near the case input: Important informations displaied is :
+We expect pass an information about everything that was made for recover that sick patients and them give a those parameters for doctors.
+
+The main idea is to insert healthy success case-patient and its factors after the system will treat this data using machine learnings to match with more near inputted scenarios system will gonna display the top 10 cases mostly near the case input: Important information displayed is :
 
 Used medicines
-Used procedments
-Arterial pressure
-Patient Temperature
-Time that patient was in there
-Age
-Weight
-Height
-Status
-All activities about that guy ( Gym, sports, normal eating food, how is living)
-And some others fields requireds by Healthly doctors (Stackholders)
+Uses case
+Arterial pressure of patients 
+Patient Temperature  of patients 
+Breath of patients 
+The time that patient was in intensive treatments Unity (UTI for Brazil) 
+Age of patients 
+Weight of patients 
+Height of patients 
+Status of patients 
+All activities about that patient ( Gym, sports, normal eating food, how is living)
+and some other fields required by Healthy doctors (Stakeholders)
 
 Talking about folders:
- 
- - Docs folder we will have architectures diagrams 
- - Compass-19 is for codes project
- 
-
-Our intention is gonna help to salve lives. Please if you can, help us to help some body!
 
 This project is using microservices three tier layer and docker. the main idea is to have a hub API
  to connect another app client-sides (mobile, pwa, desktops, web and external softwares)
