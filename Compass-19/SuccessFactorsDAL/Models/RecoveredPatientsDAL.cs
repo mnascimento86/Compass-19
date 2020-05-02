@@ -3,16 +3,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Runtime.InteropServices;
-using System.Runtime.Serialization;
-using System.Text;
 
 namespace SuccessFactorsDAL.Models
 {
-    public class RecoveredPatients : MongodbConnection
+    public class RecoveredPatientsDAL : MongodbConnection
     {
 
         #region mongodb
-        public IMongoCollection<RecoveredPatients> recoveredPatientCollection { get; set; }
+        public IMongoCollection<RecoveredPatientsDAL> recoveredPatientCollection { get; set; }
 
         #endregion
 
@@ -25,19 +23,20 @@ namespace SuccessFactorsDAL.Models
 
         #endregion
 
-        public RecoveredPatients()
-        {
-            this.recoveredPatientCollection = database.GetCollection<RecoveredPatients>("RecoveredPatients");
+        public RecoveredPatientsDAL():
+            base()
+        {               
+            this.recoveredPatientCollection = database.GetCollection<RecoveredPatientsDAL>("RecoveredPatients");
         }
 
-        public RecoveredPatients GetRecoveredPatient(int nationalDocument)
+        public RecoveredPatientsDAL GetRecoveredPatient(int nationalDocument)
         {
-            Expression<Func<RecoveredPatients, bool>> filter = x => x.NationalDocumentId.Equals(nationalDocument);
+            Expression<Func<RecoveredPatientsDAL, bool>> filter = x => x.NationalDocumentId.Equals(nationalDocument);
 
             return this.recoveredPatientCollection.Find(filter).FirstOrDefault();
         }
 
-        public IEnumerable<RecoveredPatients> GetListAllRecoveredPatients()
+        public IEnumerable<RecoveredPatientsDAL> GetListAllRecoveredPatients()
         {
             return this.recoveredPatientCollection.Find(null).ToList();
         }
@@ -47,9 +46,9 @@ namespace SuccessFactorsDAL.Models
             recoveredPatientCollection.InsertOne(this);
         }
 
-        public RecoveredPatients UpdateRecoveredPatients(int nationalDocument)
+        public RecoveredPatientsDAL UpdateRecoveredPatients(int nationalDocument)
         {
-            Expression<Func<RecoveredPatients, bool>> filter = x => x.NationalDocumentId.Equals(nationalDocument);
+            Expression<Func<RecoveredPatientsDAL, bool>> filter = x => x.NationalDocumentId.Equals(nationalDocument);
             var recoveredPatients = recoveredPatientCollection.Find(filter).FirstOrDefault();
 
             if (recoveredPatients != null)
@@ -64,11 +63,11 @@ namespace SuccessFactorsDAL.Models
      
         public void DeleteRecoveredPatients(int nationalDocument)
         {
-            Expression<Func<RecoveredPatients, bool>> filter = x => x.NationalDocumentId.Equals(nationalDocument);
+            Expression<Func<RecoveredPatientsDAL, bool>> filter = x => x.NationalDocumentId.Equals(nationalDocument);
             this.recoveredPatientCollection.DeleteOne(filter);
         }
 
-        private static RecoveredPatients UpdateRecoveredPatientProperties(RecoveredPatients recoveredPatients, [Optional] int nationalDocument, [Optional] string nameofPatient, [Optional] string situationAfterMedicines,
+        private static RecoveredPatientsDAL UpdateRecoveredPatientProperties(RecoveredPatientsDAL recoveredPatients, [Optional] int nationalDocument, [Optional] string nameofPatient, [Optional] string situationAfterMedicines,
        [Optional] string situationBeforeRecover, [Optional] IList<string> usedMedicines)
         {
             recoveredPatients.NationalDocumentId = nationalDocument;
