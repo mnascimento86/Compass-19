@@ -9,10 +9,16 @@ namespace SuccessFactorsDAL
 
         public MongodbConnection()
         {
-            IMongoClient client = new MongoClient("mongodb://localhost:27017");
-            this.database = client.GetDatabase("compass19");
+            try
+            {
+                IMongoClient client = new MongoClient("mongodb://192.168.0.213:27017");
+
+                this.database = client.GetDatabase("compass19");
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
-
-
     }
 }
