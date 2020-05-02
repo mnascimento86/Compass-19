@@ -19,7 +19,7 @@ RUN dotnet build "SuccessFactorsService.csproj" -c Release -o /app/build
 FROM build AS publish
 RUN dotnet publish "SuccessFactorsService.csproj" -c Release -o /app/publish
 
-FROM base AS final
+FROM base AS SuccessFactorsService
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "SuccessFactorsService.dll"]
